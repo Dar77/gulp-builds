@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-Compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="gulp test">
+		<meta name="author" content="darren ware">
+		<title>Gulp Test</title>
+
+	    <!-- below - comments required for gulp-useref, css/styles.min.css will be the new location and file name-->
+		<!--build:css css/styles.min.css-->
+		<link rel="stylesheet" href="src/css/example.css">
+		<link rel="stylesheet" href="src/css/example-2.css">
+		<link rel="stylesheet" href="src/css/sample.css">
+		<!-- endbuild -->
+
+		<!-- html5 shim and Respond.js for ie8 support of html5 elements and media queries -->
+		<!--[if lt ie 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+    <body>
+        <div class="container">
+			<div>
+				<h2>Testing Gulp!
+				</h2>
+			</div>
+	    </div> <!-- end .container -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+	    <!-- below - comments required for gulp-useref, js/main.min.js will be the new location and file name-->
+	    <!--build:js js/main.min.js -->
+	    <script src="src/js/example.js"></script>
+	    <script src="src/js/example-2.js"></script>
+	    <script src="src/js/example-3.js"></script>
+	    <!-- endbuild -->
+    </body>
+</html>
